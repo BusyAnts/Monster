@@ -24,6 +24,12 @@
             <artifactId>commons-lang3</artifactId>
         </dependency>
 
+        <!-- yml解析器 -->
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+        </dependency>
+
         <!-- lombok依赖 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
