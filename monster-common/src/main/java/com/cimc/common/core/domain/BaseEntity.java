@@ -42,6 +42,8 @@ public class BaseEntity implements Serializable {
     /**
      * 更新者
      */
+    @Getter
+    @Setter
     private String updateBy;
 
     /**

@@ -11,12 +11,15 @@
     <description>Monster管理系统脚手架工程</description>
     <modules>
         <module>monster-common</module>
+        <module>monster-framework</module>
+        <module>monster-system</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <shiro.version>1.4.2</shiro.version>
         <pagehelper.boot.version>1.2.13</pagehelper.boot.version>
         <lombok.version>1.18.10</lombok.version>
         <commons.fileupload.version>1.4</commons.fileupload.version>
@@ -32,6 +35,13 @@
                 <version>2.1.10.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!-- Shiro整合Spring框架 -->
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring</artifactId>
+                <version>${shiro.version}</version>
             </dependency>
 
             <!-- pagehelper 分页插件 -->
