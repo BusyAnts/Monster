@@ -38,6 +38,13 @@
                 <scope>import</scope>
             </dependency>
 
+            <!--Shiro核心框架 -->
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-core</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+
             <!-- Shiro整合Spring框架 -->
             <dependency>
                 <groupId>org.apache.shiro</groupId>
