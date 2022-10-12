@@ -19,7 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <shiro.version>1.4.2</shiro.version>
+        <shiro.version>1.10.0</shiro.version>
         <pagehelper.boot.version>1.2.13</pagehelper.boot.version>
         <lombok.version>1.18.10</lombok.version>
         <commons.fileupload.version>1.4</commons.fileupload.version>
